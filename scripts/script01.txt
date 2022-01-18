@@ -1,0 +1,29 @@
+**********************
+PowerShell transcript start
+Start time: 20211019085324
+Username: PROD\lgrant
+RunAs User: PROD\lgrant
+Configuration Name: 
+Machine: Q1ZVWST2 (Microsoft Windows NT 10.0.19043.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -WorkingDirectory ~
+Process ID: 9760
+PSVersion: 7.1.4
+PSEdition: Core
+GitCommitId: 7.1.4
+OS: Microsoft Windows 10.0.19043
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.4
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is c:\scripts\script01.txt
+PS C:\Users\lgrant> get-date -DisplayHint time
+
+8:53:28 AM
+
+PS C:\Users\lgrant> stop-transcript
+**********************
+PowerShell transcript end
+End time: 20211019085335
+**********************
