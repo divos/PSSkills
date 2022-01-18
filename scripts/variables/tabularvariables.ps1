@@ -34,8 +34,9 @@ $files[0].Length
 $files.Length
 
 $certs = Get-ChildItem Cert:\LocalMachine\CA 
-$certs | ForEach-Object { Thumbprint + " " + Verify()}
-$certs | ForEach-Object Thumbprint + " " + Verify()
+# Incorrect Examples
+# $certs | ForEach-Object { Thumbprint + " " + Verify()}
+# $certs | ForEach-Object Thumbprint + " " + Verify()
 $certs | ForEach-Object { $PSItem.Thumbprint+ " " +$PSItem.Verify()}
 
 ## 1.      In the folder c:\temp you need to create a couple of folders. Names of the folder that would need to be created will be saved in a file  c:\temp\subdirs.txt. At the moment, declare only a variable  $subdirs, and assign to it following elements:
